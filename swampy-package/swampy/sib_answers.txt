@@ -13,7 +13,10 @@ Explain what each of the following lines does. Use the terminology you learned f
 
 Answer:
 
-
+The first line imports all of the functions from TurtleWorld
+The second line creates a TurtleWorld assigned to world
+The third line creates a Turtle assigned to bob
+The fourth line tells TurtleWorld to wait for a user to do something.
 
 
 
@@ -21,13 +24,13 @@ Answer:
 These questions pertain to the program you wrote in Week0.
 
 -- What are the arguments of polygon()?  What type is each argument?
-Answer:
+Answer: The arguments of polygon are t, n and length. T is a string of the name of the turle. N is an float  and length is an integer but could be a float.
 
 -- What two turtle functions did you use to draw the sides of the polygon?
-Answer:
+Answer: I used the turtle functions fd and lt.
 
 -- What are the arguments for polyline?  What type is each argument?
-Answer:
+Answer: The arguments of polyline are turtle (a string), n the number of sides (an integer), length, the length of a side (a float) and angle, the angle of the corners (a float).
 
 
 
@@ -36,10 +39,10 @@ Answer:
 Suppose you wrote a function, center_circle(), that draws a circle of a given radius around the current location of the turtle and restores the turtle to its starting point.
 
 -- What turtle functions would you use to move the turtle from the center to the edge of the circle and get ready to call the original circle() function?
-Answer:
+Answer: the move function
 
 -- Suppose the interface of this function requires the turtle to end up in the same place it started, facing in the same direction it started.
-Answer:
+Answer: You could call the arc function and tell it to go 360 degrees.
 
 -- What is this type of requirement called?
-Answer:
+Answer: This type of requirement is a post condition.
